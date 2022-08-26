@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : hola.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#define pi 3.14
+
+int main(void) {
+	setbuf(stdout,NULL);
+	int numero;
+
+	numero=4;
+
+	printf("el valor del numero es %d", numero);
+	printf("el valode de pi es %.2f" , 3.14); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}

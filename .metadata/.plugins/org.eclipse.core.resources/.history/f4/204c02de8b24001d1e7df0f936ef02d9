@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : hola.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdout,NULL);
+	int numeroIngresado;
+	int SegundoNumeroIngresado;
+
+	float resultado;
+
+	printf("ingrese primer numero:");
+	scanf("%d",&numeroIngresado);
+
+	printf("ingrese segundo numero:");
+	scanf("%d",&SegundoNumeroIngresado);
+
+	if((numeroIngresado>-50 && numeroIngresado<100)&& (SegundoNumeroIngresado>-50 && SegundoNumeroIngresado<100) )
+	{
+		resultado=numeroIngresado + SegundoNumeroIngresado;
+		printf("el Resultado es:%.2f",resultado);
+	}
+	else
+	{
+		printf("ingrese numeros entre -50 y 100");
+	}
+}

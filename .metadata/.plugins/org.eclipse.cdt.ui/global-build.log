@@ -1,0 +1,183 @@
+09:30:27 **** Rebuild of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+11:22:42 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+11:52:06 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+11:52:59 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+12:29:40 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+..\src\hola.c: In function 'main':
+..\src\hola.c:23:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",numeroIngresado);
+          ^
+..\src\hola.c:26:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",SegundoNumeroIngresado);
+          ^
+..\src\hola.c:33:27: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("el Resultado es:%d",resultado);
+                           ^
+..\src\hola.c:23:2: warning: 'numeroIngresado' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",numeroIngresado);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\hola.c:26:2: warning: 'SegundoNumeroIngresado' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",SegundoNumeroIngresado);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o hola.exe "src\\hola.o" 
+12:30:20 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+..\src\hola.c: In function 'main':
+..\src\hola.c:23:10: warning: format '%i' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%i",numeroIngresado);
+          ^
+..\src\hola.c:26:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",SegundoNumeroIngresado);
+          ^
+..\src\hola.c:33:27: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("el Resultado es:%d",resultado);
+                           ^
+..\src\hola.c:23:2: warning: 'numeroIngresado' is used uninitialized in this function [-Wuninitialized]
+  scanf("%i",numeroIngresado);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\hola.c:26:2: warning: 'SegundoNumeroIngresado' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",SegundoNumeroIngresado);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o hola.exe "src\\hola.o" 
+12:30:57 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+..\src\hola.c: In function 'main':
+..\src\hola.c:33:27: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("el Resultado es:%d",resultado);
+                           ^
+gcc -o hola.exe "src\\hola.o" 
+12:31:22 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+12:32:31 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hola.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:32:36 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+12:32:50 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+12:34:07 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+..\src\hola.c: In function 'main':
+..\src\hola.c:36:2: error: expected ';' before '}' token
+  }
+  ^
+12:34:11 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+12:36:46 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+12:37:17 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+13:01:19 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+..\src\hola.c: In function 'main':
+..\src\hola.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",numeroA);
+          ^
+..\src\hola.c:23:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",numeroB);
+          ^
+..\src\hola.c:25:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",numeroC);
+          ^
+..\src\hola.c:28:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("el mayor es el primero:&d",numeroA);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\hola.c:33:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("el mayor es el segundo: &d",numeroB);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\hola.c:36:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("el mayor es el tercero:&d",numeroC);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\hola.c:21:2: warning: 'numeroA' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",numeroA);
+  ^~~~~~~~~~~~~~~~~~~
+..\src\hola.c:23:2: warning: 'numeroB' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",numeroB);
+  ^~~~~~~~~~~~~~~~~~~
+..\src\hola.c:25:2: warning: 'numeroC' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",numeroC);
+  ^~~~~~~~~~~~~~~~~~~
+gcc -o hola.exe "src\\hola.o" 
+13:02:28 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+..\src\hola.c: In function 'main':
+..\src\hola.c:28:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("el mayor es el primero:&d",numeroA);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\hola.c:33:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("el mayor es el segundo: &d",numeroB);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\hola.c:36:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("el mayor es el tercero:&d",numeroC);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o hola.exe "src\\hola.o" 
+13:03:08 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+13:04:24 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hola.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:04:27 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+13:04:56 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola

@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : hola.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#define pi 3.14
+
+int main(void) {
+	setbuf(stdout,NULL);
+	int numeroIngresado;
+	int SegundoNumeroIngresado;
+
+	float resultado;
+
+	printf("ingrese primer numero");
+	scanf("%d",&numeroIngresado);
+
+	printf("ingrese segundo numero");
+	scanf("%d",&SegundoNumeroIngresado);
+
+	while((numeroIngresado>-50 && numeroIngresado<100)&& (SegundoNumeroIngresado>-50 && SegundoNumeroIngresado<100) )
+	{
+		resultado=numeroIngresado + SegundoNumeroIngresado;
+	}
+
+	printf("el Resultado es:%d",resultado);
+
+	return EXIT_SUCCESS;
+}
